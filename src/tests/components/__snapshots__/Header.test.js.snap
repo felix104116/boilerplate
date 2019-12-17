@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header correctly 1`] = `
+<header
+  className="header__navbar"
+>
+  <div
+    className="content-container"
+  >
+    <div
+      className="header__content"
+    >
+      <Link
+        className="header__title"
+        replace={false}
+        to="/dashboard"
+      >
+        <h1
+          className="page-header__title"
+        >
+          Boilerplate
+        </h1>
+      </Link>
+      <button
+        className="header__logout_button"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+</header>
+`;
